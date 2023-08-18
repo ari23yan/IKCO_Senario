@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\IKCO_Senario01.Web.props" />
+</Project>
