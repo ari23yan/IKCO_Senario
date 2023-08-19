@@ -6566,6 +6566,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AutoMapper >= 12.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.0",
       "Microsoft.AspNetCore.Authentication.OpenIdConnect >= 5.0.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 5.0.1",
@@ -6588,11 +6589,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ariyan\\Desktop\\IKCO\\IKCO_Senario01\\IKCO_Senario01.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Ariyan\\Desktop\\IKCO\\Senario01.Web\\IKCO_Senario01.Web.csproj",
       "projectName": "IKCO_Senario01.Web",
-      "projectPath": "C:\\Users\\Ariyan\\Desktop\\IKCO\\IKCO_Senario01\\IKCO_Senario01.Web.csproj",
+      "projectPath": "C:\\Users\\Ariyan\\Desktop\\IKCO\\Senario01.Web\\IKCO_Senario01.Web.csproj",
       "packagesPath": "C:\\Users\\Ariyan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ariyan\\Desktop\\IKCO\\IKCO_Senario01\\obj\\",
+      "outputPath": "C:\\Users\\Ariyan\\Desktop\\IKCO\\Senario01.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ariyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6628,6 +6629,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[12.0.0, )"
+          },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[5.0.0, )"

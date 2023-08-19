@@ -11,7 +11,14 @@ using Senario01.Domain.Dtos;
 using Senario01.Application.Utilities.FluentValidation;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddControllers()
+
+
+
+builder.Services.AddDbContext<Senario01DbContext>(
+    options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
+);
+builder.Services.AddAutoMapper(typeof(Program))
+    ;builder.Services.AddControllers()
                 .AddFluentValidation(options =>
                 {
                     // Validate child properties and root collection elements
@@ -21,11 +28,6 @@ builder.Services.AddControllers()
                     options.RegisterValidatorsFromAssembly(System.Reflection.Assembly.GetExecutingAssembly());
                 });
 
-builder.Services.AddAutoMapper(typeof(Program));
-
-builder.Services.AddDbContext<Senario01DbContext>(
-    options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
-);
 builder.Services.AddDependencies();
 builder.Services.AddSwaggerGen();
 

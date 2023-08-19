@@ -10,8 +10,6 @@ namespace Senario01.Domain.Dtos
     {
         public string Name { get; set; }
         public string LastName { get; set; }
-        public string FatherName { get; set; }
-        public DateTime BirthDate { get; set; }
         public int CityId { get; set; }
     }
 }

@@ -13,6 +13,7 @@ using Senario01.Domain.Enums.Common;
 using Microsoft.OpenApi.Extensions;
 using Azure.Core;
 using Senario01.Domain.Dtos.Customer;
+using AutoMapper;
 
 namespace IKCO_Senario01.Web.Controllers
 {
@@ -25,13 +26,15 @@ namespace IKCO_Senario01.Web.Controllers
         private readonly ICustomerService _customerService;
         private readonly ICityService _cityService;
         private readonly ISwaggerProvider SwaggerDocs;
+        private readonly IMapper _mapper;
 
 
-        public HomeController(ICustomerService customerService, ICityService cityService, ISwaggerProvider swaggerProvider)
+        public HomeController(ICustomerService customerService, IMapper mapper, ICityService cityService, ISwaggerProvider swaggerProvider)
         {
             _customerService = customerService;
             _cityService = cityService;
             SwaggerDocs = swaggerProvider;
+            _mapper = mapper;
 
         }
 
@@ -41,10 +44,12 @@ namespace IKCO_Senario01.Web.Controllers
         {
             try
             {
+
                 var customers = await _customerService.GetAll();
+                var customersDto = _mapper.Map<List<Customer>, List<CustomerListDto>>(customers);
                 if (customers != null)
                 {
-                    return Ok(customers);
+                    return Ok(customersDto);
                 }
                 return BadRequest("0 Customers");
             }

@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "IKCO_Senario01.Web/1.0.0": {
         "dependencies": {
+          "AutoMapper": "12.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "5.0.0",
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "5.0.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "5.0.1",

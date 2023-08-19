@@ -23,11 +23,4 @@ namespace Senario01.Domain.Entities
 
             public StatusType Status { get; set; }
         }
-    public class AddUserRequest
-    {
-        public string Name { get; set; }
-        public int CityId { get; set; }
-        [SwaggerSchema("List of cities")]
-        public List<City> Cities { get; set; }
-    }
 }
