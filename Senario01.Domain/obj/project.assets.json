@@ -576,11 +576,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ariyan\\Desktop\\CalenderWebApi\\Senario01.Domain\\Senario01.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Ariyan\\Desktop\\IKCO\\Senario01.Domain\\Senario01.Domain.csproj",
       "projectName": "Senario01.Domain",
-      "projectPath": "C:\\Users\\Ariyan\\Desktop\\CalenderWebApi\\Senario01.Domain\\Senario01.Domain.csproj",
+      "projectPath": "C:\\Users\\Ariyan\\Desktop\\IKCO\\Senario01.Domain\\Senario01.Domain.csproj",
       "packagesPath": "C:\\Users\\Ariyan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ariyan\\Desktop\\CalenderWebApi\\Senario01.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Ariyan\\Desktop\\IKCO\\Senario01.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ariyan\\AppData\\Roaming\\NuGet\\NuGet.Config",

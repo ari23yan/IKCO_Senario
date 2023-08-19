@@ -3608,11 +3608,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ariyan\\Desktop\\CalenderWebApi\\Senario01.Ioc\\Senario01.Ioc.csproj",
+      "projectUniqueName": "C:\\Users\\Ariyan\\Desktop\\IKCO\\Senario01.Ioc\\Senario01.Ioc.csproj",
       "projectName": "Senario01.Ioc",
-      "projectPath": "C:\\Users\\Ariyan\\Desktop\\CalenderWebApi\\Senario01.Ioc\\Senario01.Ioc.csproj",
+      "projectPath": "C:\\Users\\Ariyan\\Desktop\\IKCO\\Senario01.Ioc\\Senario01.Ioc.csproj",
       "packagesPath": "C:\\Users\\Ariyan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ariyan\\Desktop\\CalenderWebApi\\Senario01.Ioc\\obj\\",
+      "outputPath": "C:\\Users\\Ariyan\\Desktop\\IKCO\\Senario01.Ioc\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ariyan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3629,11 +3629,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Ariyan\\Desktop\\CalenderWebApi\\Senario01.Data\\Senario01.Data.csproj": {
-              "projectPath": "C:\\Users\\Ariyan\\Desktop\\CalenderWebApi\\Senario01.Data\\Senario01.Data.csproj"
+            "C:\\Users\\Ariyan\\Desktop\\IKCO\\Senario01.Data\\Senario01.Data.csproj": {
+              "projectPath": "C:\\Users\\Ariyan\\Desktop\\IKCO\\Senario01.Data\\Senario01.Data.csproj"
             },
-            "C:\\Users\\Ariyan\\Desktop\\CalenderWebApi\\Senario01_Application\\Senario01.Application.csproj": {
-              "projectPath": "C:\\Users\\Ariyan\\Desktop\\CalenderWebApi\\Senario01_Application\\Senario01.Application.csproj"
+            "C:\\Users\\Ariyan\\Desktop\\IKCO\\Senario01_Application\\Senario01.Application.csproj": {
+              "projectPath": "C:\\Users\\Ariyan\\Desktop\\IKCO\\Senario01_Application\\Senario01.Application.csproj"
             }
           }
         }

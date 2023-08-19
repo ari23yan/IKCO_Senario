@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fOrYDvEm6HYXLtBV/FaLeXEMbE+FFqXSwD2EuAkST8VVVUGAILL+IV7lXQw/3es+xSy+blKALX+3Ytv8w0qnow==",
+  "dgSpecHash": "YEls473kxNNBdy8ygwJcHHNvcwB89oLL0vzmJQcVwEwO1nV8jZWOnjf5ttp39IXlgEML6EK6QhyvEUAOXgbYUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Ariyan\\Desktop\\CalenderWebApi\\Senario01_Application\\Senario01.Application.csproj",
+  "projectFilePath": "C:\\Users\\Ariyan\\Desktop\\IKCO\\Senario01_Application\\Senario01.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ariyan\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Ariyan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
